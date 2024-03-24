@@ -8,6 +8,9 @@ let soma = 0;
 let  mult = 3;
 
 while(soma < 500){
+    if (soma >= 500) {
+        break;
+    }
     soma += numero
     numero *= mult
     console.log('Número:' , numero, "Soma:" , soma)
